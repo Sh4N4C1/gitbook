@@ -3,6 +3,7 @@
 ## port scan
 
 just 3389 (rdp) open
+
 ![](walkthrough_20240409141150713.png)
 
 ## rdp
