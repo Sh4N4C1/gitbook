@@ -30,7 +30,7 @@ it is edge
 
 ![](walkthrough_20240409144600943.png)
 
-looks like we can't fond everything. it seems a sandbox
+looks like we can't found everything. it seems a sandbox
 
 but we can launch edge browser with press [win] and then press [win + s]
 
