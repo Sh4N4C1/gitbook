@@ -3,6 +3,7 @@
 ## port scan
 
 10.10.178.198 srv.tea.vl
+
 10.10.178.197 dc.tea.vl
 
 ![](<tea(chain)(medium)/walkthrough_20240413120505926.png>)
