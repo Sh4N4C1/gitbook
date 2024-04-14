@@ -187,7 +187,7 @@ get a beacon
 
 ## abuse SeImpersonatePrivilege
 
-since we are service account, we alose have `SeImpersonatePrivilege` privilege.
+since we are service account, we also have `SeImpersonatePrivilege` privilege.
 
 ![](<tengu(chain)(medium)/walkthrough_20240414170922984.png>)
 
