@@ -19,3 +19,4 @@
     - [Trusted (chain) (easy)](writeup/vulnlab/walkthrough-10.md)
     - [Reflection (chain) (medium)](writeup/vulnlab/walkthrough-11.md)
     - [Tea (chain) (medium)](writeup/vulnlab/walkthrough-12.md)
+    - [Tengu (chain) (medium)](writeup/vulnlab/walkthrough-13.md)
