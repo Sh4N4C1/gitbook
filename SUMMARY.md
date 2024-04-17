@@ -20,3 +20,4 @@
     - [Reflection (chain) (medium)](writeup/vulnlab/walkthrough-11.md)
     - [Tea (chain) (medium)](writeup/vulnlab/walkthrough-12.md)
     - [Tengu (chain) (medium)](writeup/vulnlab/walkthrough-13.md)
+    - [Vigilant (chain) (hard)](writeup/vulnlab/walkthrough-14.md)
