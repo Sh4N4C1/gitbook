@@ -396,8 +396,6 @@ it say `VIGILANTADMINS` may be used to abtian `Temporary admin ` permission
 
 First get the certificate as usual
 
-![](<vigilant(chain)(hard)/walkthrough_20240417200936034.png>)
-
 Then get tgt through the certificate.Please note that the tgt obtained at this time already has `Temporary admin` permissions
 
 ![](<vigilant(chain)(hard)/walkthrough_20240417201035279.png>)
