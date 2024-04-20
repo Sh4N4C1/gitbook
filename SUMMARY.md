@@ -1,9 +1,13 @@
 # Table of contents
 
 - [My Gitbook](README.md)
-- [windows_dev](windows_dev/README.md)
-  - [Windows Portable Executeable Format](windows_dev/windows_pe_format.md)
-  - [Microsoft Windows Programming](windows_dev/windows_programming.md)
+- [malware_dev](malware_dev/README.md)
+  - [Basic](malware_dev/basic/README.md)
+    - [Windows Portable Executeable Format](malware_dev/basic/windows_pe_format.md)
+    - [Microsoft Windows Programming](malware_dev/basic/windows_programming.md)
+    - [Encryption](malware_dev/basic/encryption.md)
+    - [Enumerate Processes](malware_dev/basic/enumerate_processes.md)
+  - [Inject Method](malware_dev/inject_method/README.md)
 - [writeup](writeup/README.md)
   - [vulnlab](writeup/vulnlab/README.md)
     - [Sync (easy)](writeup/vulnlab/walkthrough.md)
