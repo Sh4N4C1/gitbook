@@ -9,6 +9,7 @@
     - [Download](malware_dev/basic/download.md)
     - [Enumerate Processes](malware_dev/basic/enumerate_processes.md)
   - [Inject Method](malware_dev/inject_method/README.md)
+  - [Indirect Syscalls](malware_dev/indirect_syscalls.md)
 - [writeup](writeup/README.md)
   - [vulnlab](writeup/vulnlab/README.md)
     - [Sync (easy)](writeup/vulnlab/walkthrough.md)
