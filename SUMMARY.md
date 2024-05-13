@@ -14,6 +14,7 @@
   - [vulnlab](writeup/vulnlab/README.md)
     - [Sync (easy)](writeup/vulnlab/walkthrough.md)
     - [Data (easy)](writeup/vulnlab/walkthrough-1.md)
+    - [Build (easy)](writeup/vulnlab/walkthrough-15.md)
     - [Escape (easy)](writeup/vulnlab/walkthrough-2.md)
     - [baby (easy)](writeup/vulnlab/walkthrough-3.md)
     - [Feedback (easy)](writeup/vulnlab/walkthrough-4.md)
