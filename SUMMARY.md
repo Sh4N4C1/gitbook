@@ -8,6 +8,7 @@
     - [Encryption](malware_dev/basic/encrypt.md)
     - [Download](malware_dev/basic/download.md)
     - [Enumerate Processes](malware_dev/basic/enumerate_processes.md)
+    - [Windows Authentication](malware_dev/basic/windowsauth.md)
   - [Inject Method](malware_dev/inject_method/README.md)
   - [Indirect Syscalls](malware_dev/indirect_syscalls.md)
 - [writeup](writeup/README.md)
